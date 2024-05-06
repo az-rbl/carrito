@@ -2,7 +2,7 @@ import redis
 import time
 
 QUIT =False
-LIMIT =2
+LIMIT =1000
 
 def to_str(x):
     return x.decode() if isinstance(x, bytes) else x
